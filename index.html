@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>NATURELA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="naturela.css">
+	<link rel="stylesheet" href="slajder.css">
+	<script src="jqueryZaNiR.js"></script>
+	
+	<!-- 
+	<script src="jquery-2.2.0.js"></script>
+	
+	<script src="bootstrap.min.js"></script >
+	
+	<script src="docs.min.js"></script >
+	<script src="ie10-viewport-bug-workaround.js"></script >
+	<script src="jquery-1.9.1.min.js"></script >
+	-->
+	
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  <!-- ZA SLAJDER -->
+  <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 450,
+		play: {
+			active: true,
+			auto: true,
+			interval: 5000,
+			swap: true
+		}
+      });
+    });
+  </script>
+  
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                       
+						</button>
+						<a class="navbar-brand" href="index.html"><b>NATURELA</b></a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							
+							<li class="active"><a href="index.html">Почетна</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Нега на коса</a></li>
+								<li><a href="#">Нега на лице</a></li>
+								<li><a href="#">Шминка</a></li>
+								<li><a href="#">Маникир</a></li>
+								<li><a href="#">Педикир</a></li>
+								<li><a href="#">Масажа</a></li>
+								<li><a href="#">Сауна</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Закажи термин</a></li>
+							<li><a href="#">Контакт</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a id="linkZaNajava" href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-log-in"></span> Најави се
+								<span class="caret"></span></a>
+								<!-- <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;"> -->
+								<!-- Login form here -->
+								
+								<form class="dropdown-menu" style="padding: 10px;">
+									<label id="labelaKorisnik" for="korisnik">Корисничко име:</label></br>
+									<input id="inputKorisnik" type="text" id="korisnik"></br>
+									<label id="labelaLozinka" for="lozinka">Лозинка:</label></br>
+									<input id="inputLozinka" type="password" id="lozinka"></br></br>
+									<input id="kopceNajavise" type="submit" value="Најави се">
+								</form>
+								
+								<!-- </div> -->
+							</li>
+							<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Регистрирај се
+								<span class="caret"></span></a>
+								<!-- Login form here -->
+								<form class="dropdown-menu" style="padding: 10px;">
+									<label id="labelaKorisnik" for="korisnik">Корисничко име:</label></br>
+									<input type="text" id="korisnik"></br>
+									<label id="labelaIme" for="ime"> Име:</label></br>
+									<input type="text" id="ime"></br>
+									<label id="labelaPrezime" for="prezime">Презиме:</label></br>
+									<input type="text" id="prezime"></br>
+									<label id="labelaEMBG" for="embg">ЕМБГ:</label></br>
+									<input type="text" id="embg"></br>
+									<label id="labelaTel" for="telefon">Телефон:</label></br>
+									<input type="text" id="telefon"></br>
+									<label id="labelaEmail" for="email">E-mail:</label></br>
+									<input type="email" id="email"></br>
+									<label id="labelaLozinka" for="lozinka">Лозинка:</label></br>
+									<input type="password" id="lozinka"></br></br>
+									<input id="kopceRegistrirajse" type="submit" value="Регистрирај се">
+								</form>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<content>
+			<div class="container">
+			<!--
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+			-->
+				<div id="slides">
+					<img src="Sliki/kosaa.jpg">
+					<img src="Sliki/sminka2.jpg"> 
+					<img src="Sliki/purple.jpg">
+					<img src="Sliki/MASSAGE.jpg">
+					<img src="Sliki/spa3.jpg">
+				</div>
+			</div>
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<center> <img id="logo" class="img-responsive" src="Sliki/logo1.gif"> </center>
+						<p class="paragraf">NATURELA со години претставува лидер во областа на козметологијата. Повеќе од 17 годишното постоење, големиот број на клиенти, партнери и деловни соработници се потврда за врвната професионална услуга и дополнителен поттик за нас, за да продолжиме да ги следиме најновите научни достигнувања и нивната имплементација во медицинската и естетската козметологија, и да овозможиме примена на најсовремените козметички третмани во нашата програма на услуги. Располага со два салони за убавина и релаксација во Битола на две локации. Убавината е наша движечка сила и мотивација Нашите салони за убавина и релаксација ги задоволуваат стандардите на најдобрите салони во светските метрополи. Идејата ни беше да создадеме рај за Вашите сетила. Салонот за убавина и релаксација NATURELA ја следи убавината како предизвик, а професионалната понуда како визија за успешен однос помеѓу нашиот бренд од една и задоволните клиенти од другата страна. Професионалниот тим на NATURELA во својата работа ги почитува принципите на деловност, етика, врши континуирана едукација и ги следи највисоките стандарди за квалитет при изборот на козметичките услуги и препарати и тоа се со единствена цел - да одговори на потребите и барањата на клиентите. Горди сме што бројот на задоволни клиенти постојано расте. NATURELA, најдобар избор на традиционални и современи третмани за обликување и нега на Вашето лице, тело, коса и нокти. Уверете се во резултатите од нашата работа. Ви благодариме за довербата.</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<center>
+							<img src="Sliki/kosa1.jpg" class="img-rounded img-responsive" alt="" width="450" height="250">	
+						</center>
+							<h2 class="text-center heading">Нега на коса</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div class="col-md-6">
+						<center>
+							<img id="imgSkin" src="Sliki/skincare1.jpg" class="img-rounded img-responsive" alt="" width="450" height="250">
+						</center>
+							<h2 class="text-center heading">Нега на лице и тело</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<center>
+							<img src="Sliki/sminka.jpg" class="img-circle img-responsive" alt="" width="350" height="250">
+						</center>
+						<h2 class="text-center heading">Професионална шминка</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div class="col-md-4">
+						<center>
+							<img src="Sliki/manicure1.jpg" class="img-circle img-responsive" alt="" width="350" height="250">
+						</center>
+						<h2 class="text-center heading">Маникир</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div class="col-md-4">
+						<center>
+							<img src="Sliki/pedicure1.jpg" class="img-circle img-responsive" alt="" width="350" height="250">
+						</center>
+						<h2 class="text-center heading">Педикир</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<center>
+							<img src="Sliki/massage2.jpg" class="img-rounded img-responsive" alt="" width="450" height="250">
+						</center>
+						<h2 class="text-center heading">Масажа</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div class="col-md-6">
+						<center>
+							<img src="Sliki/sauna3.jpg" class="img-rounded img-responsive" alt="" width="450" height="350">
+						</center>
+						<h2 class="text-center heading">Сауна</h2>
+						<p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+			</div id="divZaNajava" class="najava-registracija">
+				<form class="dropdown-menu" style="padding: 10px;">
+					<label id="labelaKorisnik" for="korisnik">Корисничко име:</label>
+					<input id="inputKorisnik" type="text" id="korisnik">
+					<label id="labelaLozinka" for="lozinka">Лозинка:</label>
+					<input id="inputLozinka" type="password" id="lozinka">
+					<input id="kopceNajavise" type="submit" value="Најави се">
+				</form>
+			</div>
+			<!--
+			<div id="divZaRegistracija" class="najava-registracija">
+				<form class="dropdown-menu" style="padding: 10px;">
+					<label id="labelaKorisnik" for="korisnik">Корисничко име:</label>
+					<input type="text" id="korisnik">
+					<label id="labelaIme" for="ime"> Име:</label>
+					<input type="text" id="ime">
+					<label id="labelaPrezime" for="prezime">Презиме:</label>
+					<input type="text" id="prezime">
+					<label id="labelaEMBG" for="embg">ЕМБГ:</label>
+					<input type="text" id="embg">
+					<label id="labelaTel" for="telefon">Телефон:</label>
+					<input type="text" id="telefon">
+					<label id="labelaEmail" for="email">E-mail:</label>
+					<input type="email" id="email">
+					<label id="labelaLozinka" for="lozinka">Лозинка:</label>
+					<input type="password" id="lozinka">
+					<input id="kopceRegistrirajse" type="submit" value="Регистрирај се">
+				</form>
+			</div>
+			-->
+		</content>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted text-center paragraf-footer"><span id="CopyRight">&copy;</span> 2015. All Rights Reserved.</p>
+			</div>
+		</footer>
+		<!--
+		<footer>
+			<div class="mastfoot">
+				<div class="inner">
+					<p id="paragrafFooter"><span id="CopyRight">&copy;</span> 2015. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+		-->
+	</div>
+</body>
+</html>
